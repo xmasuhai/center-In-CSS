@@ -46,25 +46,17 @@ body {
 
 /* default */
 .centerElement {
-  width: 100px;
-  height: 100px;
+  // width: 100px;
+  // height: 100px;
   background-color: #666;
-  text-align: center;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  // padding-top: 25px;
+  // padding-bottom: 25px;
 }
 
-/* `flex/grid` 与 `margin:auto`(最简单写法) */
-.container1 {
-  height: 50vh; //必须有高度
+/* grid center */
+.container {
+  // height: 50vh; //必须有高度
   display: grid;
-}
-
-.container2 {
-  height: 50vh; //必须有高度
-  display: flex;
-}
-
-.centerElement {
-  margin: auto;
+  justify-items: center; // 指定了网格元素的水平呈现方式
+  align-items: center; //指定了网格元素的垂直呈现方式
 }

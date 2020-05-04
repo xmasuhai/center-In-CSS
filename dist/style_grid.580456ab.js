@@ -184,7 +184,7 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"C:/Users/Xmasu/AppData/Roaming/npm/node_modules/parcel/src/builtins/bundle-url.js"}],"style.scss":[function(require,module,exports) {
+},{"./bundle-url":"C:/Users/Xmasu/AppData/Roaming/npm/node_modules/parcel/src/builtins/bundle-url.js"}],"style_grid.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
@@ -394,4 +394,4 @@ function hmrAcceptRun(bundle, id) {
   }
 }
 },{}]},{},["C:/Users/Xmasu/AppData/Roaming/npm/node_modules/parcel/src/builtins/hmr-runtime.js"], null)
-//# sourceMappingURL=/style.97fcb138.js.map
+//# sourceMappingURL=/style_grid.580456ab.js.map

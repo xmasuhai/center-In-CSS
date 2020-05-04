@@ -36,27 +36,14 @@ body {
 
 /* default */
 .centerElement {
-  width: 100px;
-  height: 100px;
   background-color: #666;
-  text-align: center;
-  padding-top: 25px;
-  padding-bottom: 25px;
 }
 
-/* `flex/grid` 与 `margin:auto`(最简单写法) */
-.container1 {
-  height: 50vh;
+/* grid center */
+.container {
   display: grid;
-}
-
-.container2 {
-  height: 50vh;
-  display: flex;
-}
-
-.centerElement {
-  margin: auto;
+  justify-items: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=/style.97fcb138.css.map */

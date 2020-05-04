@@ -51,3 +51,20 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.space {
+  width: 30vw;
+  height: 30vh;
+  /* 设置宽高以显示居中效果 */
+  display: flex;
+  /* 弹性布局 */
+  align-items: center;
+  /* 垂直居中 */
+  justify-content: center;
+  /* 水平居中 */
+}
+
+.earth::after {
+  content: '🌏';
+  font-size: 85px;
+}

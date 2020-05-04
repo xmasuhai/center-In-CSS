@@ -43,6 +43,6 @@ body {
 /* grid center */
 .container {
   display: grid;
-  justify-items: center;
-  align-items: center;
+  place-items: center / center;
+  justify-content: center;
 }
